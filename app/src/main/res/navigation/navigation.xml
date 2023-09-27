@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/savedFragment">
+
+    <fragment
+        android:id="@+id/playlistsFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.PlaylistsFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist">
+        <action
+            android:id="@+id/action_playlistsFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <action
+            android:id="@+id/action_playlistsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_playlistsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_playlistsFragment_to_playlistsViewFragment"
+            app:destination="@id/playlistsViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved">
+        <action
+            android:id="@+id/action_savedFragment_to_playlistsFragment"
+            app:destination="@id/playlistsFragment" />
+        <action
+            android:id="@+id/action_savedFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_savedFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_savedFragment_to_savedAddToPlaylistFragment"
+            app:destination="@id/savedAddToPlaylistFragment" />
+        <action
+            android:id="@+id/action_savedFragment_to_songViewFragment"
+            app:destination="@id/songViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_playlistsFragment"
+            app:destination="@id/playlistsFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_playlistsFragment"
+            app:destination="@id/playlistsFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedAddToPlaylistFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.SavedAddToPlaylistFragment"
+        android:label="fragment_saved_add_to_playlist"
+        tools:layout="@layout/fragment_saved_add_to_playlist" >
+        <action
+            android:id="@+id/action_savedAddToPlaylistFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <argument
+            android:name="songId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlistsViewFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.PlaylistsViewFragment"
+        android:label="fragment_playlists_view"
+        tools:layout="@layout/fragment_playlists_view" >
+        <action
+            android:id="@+id/action_playlistsViewFragment_to_playlistsFragment"
+            app:destination="@id/playlistsFragment" />
+        <action
+            android:id="@+id/action_playlistsViewFragment_to_songViewFragment"
+            app:destination="@id/songViewFragment" />
+        <argument
+            android:name="playlistUid"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/songViewFragment"
+        android:name="uk.ac.rgu.music_tracker.fragments.SongViewFragment"
+        android:label="fragment_song_view"
+        tools:layout="@layout/fragment_song_view" >
+        <action
+            android:id="@+id/action_songViewFragment_to_playlistsViewFragment"
+            app:destination="@id/playlistsViewFragment" />
+        <action
+            android:id="@+id/action_songViewFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <argument
+            android:name="SongId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

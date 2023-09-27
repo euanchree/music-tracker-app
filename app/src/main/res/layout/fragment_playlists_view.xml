@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PlaylistsViewFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/playlistsVeiwFragmentRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/playlistsVeiwFragmentRemoveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playlistsViewRenameInput"
+        tools:listitem="@layout/song_list_item" />
+
+    <Button
+        android:id="@+id/playlistsVeiwFragmentRemoveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/playlists_view_frag_remove_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playlistsViewFragmentViewButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/playlistsViewFragmentReturnButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/playlists_view_frag_return_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playlistsViewFragmentViewButton"
+        app:layout_constraintTop_toTopOf="@+id/playlistsVeiwFragmentRemoveButton" />
+
+    <Button
+        android:id="@+id/playlistsViewFragmentViewButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/playlists_view_frag_view_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playlistsViewFragmentReturnButton"
+        app:layout_constraintStart_toEndOf="@+id/playlistsVeiwFragmentRemoveButton"
+        app:layout_constraintTop_toTopOf="@+id/playlistsVeiwFragmentRemoveButton" />
+
+    <EditText
+        android:id="@+id/playlistsViewRenameInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="@string/playlists_view_frag_rename_input_text"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/playlistsVeiwFragmentRecyclerView"
+        app:layout_constraintEnd_toStartOf="@+id/playlistsViewRenameButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playlistsViewRenameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/playlists_view_frag_rename_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playlistsViewRenameInput"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

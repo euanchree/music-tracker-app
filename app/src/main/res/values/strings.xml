@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App -->
+    <string name="app_name">Music_Tracker</string>
+
+    <!-- Debug -->
+    <string name="debug_tag">Music_Tracker</string>
+
+    <!-- Api key -->
+    <string name="search_frag_api_key">523532</string>
+
+    <!-- Saved fragment -->
+    <string name="saved_frag_unsave_button_text">Unsave</string>
+    <string name="saved_frag_add_to_playlist_text">Add to playlist</string>
+    <string name="saved_frag_view_song_button_text">View</string>
+
+    <!-- Saved add to fragment -->
+    <string name="saved_add_to_fragment_add_button_text">Add</string>
+    <string name="saved_add_to_fragment_cancel_button_text">Cancel</string>
+
+    <!-- Playlists fragment -->
+    <string name="playlist_frag_view_button_text">View</string>
+    <string name="playlist_frag_create_button_text">Create</string>
+    <string name="playlist_frag_delete_button_text">Delete</string>
+
+    <!-- Playlist view fragment -->
+    <string name="playlists_view_frag_remove_button_text">Remove</string>
+    <string name="playlists_view_frag_return_button_text">Return</string>
+    <string name="playlists_view_frag_view_button_text">View</string>
+    <string name="playlists_view_frag_rename_input_text" tools:ignore="TypographyEllipsis">New name of playlist...</string>
+    <string name="playlists_view_frag_rename_button_text">Rename</string>
+
+    <!-- Search fragment -->
+    <string name="search_frag_search_bar_text">Search for [Artist],[Song Name]</string>
+    <string name="search_frag_search_button_text">Search</string>
+    <string name="search_frag_save_button_text">Save</string>
+    <string name="search_frag_results_text">Search Results:</string>
+    <string name="search_frag_name_text">Song Name</string>
+    <string name="search_frag_artist_text">Song Artist</string>
+    <string name="search_frag_album_text">Song Album</string>
+    <string name="search_frag_message_text">If this is the correct song press save to add it to the saved songs list.</string>
+
+    <!-- Song view fragment -->
+        <!-- Place holders -->
+    <string name="song_view_frag_placeholder_name_text">Song Name:</string>
+    <string name="song_view_frag_placeholder_album_text">Album Name:</string>
+    <string name="song_view_frag_placeholder_artist_text">Artist Name:</string>
+
+        <!-- Text for label and button -->
+    <string name="song_view_frag_lyrics_text">Lyrics:</string>
+    <string name="song_view_frag_return_button_text">Return</string>
+
+    <!-- Settings fragment -->
+        <!-- Label text -->
+    <string name="settings_frag_clear_saved_text">Clear saved songs</string>
+    <string name="settings_frag_clear_playlist_text">Clear the playlists</string>
+    <string name="settings_frag_clear_search_history">Clear search history</string>
+    <string name="settings_frag_upload_to_firebase_text">Backup all saved songs and playlists</string>
+    <string name="settings_frag_restore_from_firebase_text">Restore all saved songs and playlists</string>
+
+        <!-- Button text -->
+    <string name="settings_frag_clear_saved_button_text">Clear</string>
+    <string name="settings_frag_clear_playlist_button_text">Clear</string>
+    <string name="settings_frag_clear_search_history_button_text">Clear</string>
+    <string name="settings_frag_upload_button_text">Upload</string>
+    <string name="settings_frag_restore_button_text">Restore</string>
+
+    <!-- Accessibility -->
+    <string name="search_frag_search_bar_accessibility_label">Song search bar input</string>
+    <string name="song_view_album_art_content_description">Album art for the song</string>
+
+    <!-- Menu -->
+    <string name="nav_menu_saved_text">Saved</string>
+    <string name="nav_menu_playlists_text">Playlists</string>
+    <string name="nav_menu_search_text">Search</string>
+    <string name="nav_menu_settings_text">Settings</string>
+
+    <!-- List items -->
+    <string name="playlist_list_item_name_text">Playlist Name</string>
+    <string name="song_list_item_name_text">Song Name</string>
+    <string name="song_list_item_artist_name_text">Artist Name</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment" >
+
+    <TextView
+        android:id="@+id/settingsFragmentClearSavedLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/settings_frag_clear_saved_text"
+        app:layout_constraintEnd_toStartOf="@+id/settingsFragmentClearSavedButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/settingsFragmentClearSavedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/settings_frag_clear_saved_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settingsFragmentClearSavedLabel" />
+
+    <TextView
+        android:id="@+id/settingsFragmentClearPlaylistsLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/settings_frag_clear_playlist_text"
+        app:layout_constraintEnd_toStartOf="@+id/settingsFragmentClearPlaylistsButton"
+        app:layout_constraintStart_toStartOf="@+id/settingsFragmentClearSavedLabel"
+        app:layout_constraintTop_toBottomOf="@+id/settingsFragmentClearSavedLabel" />
+
+    <Button
+        android:id="@+id/settingsFragmentClearPlaylistsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-14dp"
+        android:text="@string/settings_frag_clear_playlist_button_text"
+        app:layout_constraintEnd_toEndOf="@+id/settingsFragmentClearSavedButton"
+        app:layout_constraintStart_toStartOf="@+id/settingsFragmentClearSavedButton"
+        app:layout_constraintTop_toTopOf="@+id/settingsFragmentClearPlaylistsLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

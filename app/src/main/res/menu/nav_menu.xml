@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navBarSaved"
+        android:title="@string/nav_menu_saved_text" />
+    <item
+        android:id="@+id/navBarPlaylists"
+        android:title="@string/nav_menu_playlists_text" />
+    <item
+        android:id="@+id/navBarSearch"
+        android:title="@string/nav_menu_search_text" />
+    <item
+        android:id="@+id/navBarSettings"
+        android:title="@string/nav_menu_settings_text" />
+</menu>

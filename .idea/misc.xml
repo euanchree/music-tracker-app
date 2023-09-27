@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_playlist.xml" value="0.36666666666666664" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_playlists_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_saved.xml" value="0.33" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_saved_add_to_playlist.xml" value="0.36666666666666664" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_settings.xml" value="0.20729166666666668" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_song_view.xml" value="0.20729166666666668" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/playlist_list_item.xml" value="0.20729166666666668" />
+        <entry key="..\:/Uni/Third Year/CM3110 Mobile App Development/Coursework/cm3110-coursework-euan-prog/app/src/main/res/layout/song_list_item.xml" value="0.5" />
+        <entry key="..\:/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_playlists_view.xml" value="0.19074074074074074" />
+        <entry key="..\:/cm3110-coursework-euan-prog/app/src/main/res/layout/fragment_song_view.xml" value="0.5" />
+        <entry key="..\:/cm3110-coursework-euan-prog/app/src/main/res/layout/playlist_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/cm3110-coursework-euan-prog/app/src/main/res/layout/song_list_item.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3734375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_playlist.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_playlists_view.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_saved.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_saved_add_to_playlist.xml" value="0.3572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_selected_playlist.xml" value="0.3572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.3572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_song_view.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/playlist_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/song_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/app_nav_bar.xml" value="0.3572916666666667" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3572916666666667" />
+        <entry key="app/src/main/res/menu/nav_menu_return.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.3572916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
